@@ -52,3 +52,28 @@ const person3 = {
 };
 person3.id = 3;
 const minus = (x, y) => x - y;
+class Person {
+    constructor(id, name) {
+        this.id = id;
+        this.name = name;
+        this.register();
+    }
+    get getName() {
+        return this.name;
+    }
+    register() {
+        console.log(`${this.name} is registered!`);
+    }
+}
+const edilson = new Person(1, 'Edilson');
+console.log(JSON.parse(JSON.stringify(edilson)));
+console.log(edilson.getName);
+//Extend a class
+class Employee extends Person {
+    constructor(id, name, position) {
+        super(id, name);
+        this.position = position;
+    }
+}
+const edilsonEmp = new Employee(200, 'Luis', 'Chief');
+console.log(edilsonEmp);
