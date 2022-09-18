@@ -31,7 +31,8 @@ const person2 = {
     name: 'Luis'
 };
 //Type assertion
-let cid = 1;
+let cid = 'test';
 //We use one of this ways below
 let customerId = cid;
 customerId = cid;
+console.log(customerId);
