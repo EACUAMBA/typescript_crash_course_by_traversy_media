@@ -36,3 +36,13 @@ let cid = 'test';
 let customerId = cid;
 customerId = cid;
 console.log(customerId);
+//Functions
+function sum(x, y) {
+    return x + y;
+}
+console.log("SUM: ", sum(1, 14));
+//Void as return type
+function log(message) {
+    console.log(message);
+}
+log('String');
