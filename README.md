@@ -16,7 +16,7 @@
    1. In dynamic type languages, the type are associated with run-time values and not named explicitly in your code.
    2. In static type languages, you explicitly assign types to variables, function parameters, return values, etc;
 
-Static Examples are: Java, C, C++, Rust, GO
+Static Examples are: Java, C, C++, Rust, GO/
 Dynamic Examples are: JavaScript, Python, Ruby, PHP
 
 ### Pros & Cons
