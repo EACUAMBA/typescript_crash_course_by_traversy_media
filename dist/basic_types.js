@@ -30,4 +30,8 @@ const person2 = {
     id: 2,
     name: 'Luis'
 };
-//T
+//Type assertion
+let cid = 1;
+//We use one of this ways below
+let customerId = cid;
+customerId = cid;
