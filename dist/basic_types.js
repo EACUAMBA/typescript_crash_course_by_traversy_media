@@ -46,3 +46,9 @@ function log(message) {
     console.log(message);
 }
 log('String');
+const person3 = {
+    id: 2,
+    name: 'Luis'
+};
+person3.id = 3;
+const minus = (x, y) => x - y;
